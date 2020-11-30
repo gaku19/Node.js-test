@@ -29,7 +29,7 @@ app.post("/", (req, res) => {
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'superman1921998!',
+    password: '?',
     database: 'test'
   });
 
@@ -40,7 +40,6 @@ connection.connect((err) => {
 }
 console.log('success');
 });
-
 
 
 app.listen(3000, (req, res) => {
